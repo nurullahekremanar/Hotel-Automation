@@ -1,0 +1,24 @@
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\dataAccessLayer.dll
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\dataAccessLayer.pdb
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\nurul\source\repos\otel\dataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\nurul\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\nurul\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\nurul\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.csproj.CopyComplete
+C:\Users\nurul\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.dll
+C:\Users\nurul\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.pdb
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\dataAccessLayer.dll
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\dataAccessLayer.pdb
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\EntityLayer.dll
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\EntityLayer.pdb
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\EntityLayer.dll.config
+D:\Ders Notları\source\repos\otel\dataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Ders Notları\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.csproj.AssemblyReference.cache
+D:\Ders Notları\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Ders Notları\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.csproj.CopyComplete
+D:\Ders Notları\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.dll
+D:\Ders Notları\source\repos\otel\dataAccessLayer\obj\Debug\dataAccessLayer.pdb

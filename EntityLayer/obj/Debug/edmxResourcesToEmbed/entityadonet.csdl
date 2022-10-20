@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hotelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kategori">
+    <Key>
+      <PropertyRef Name="KatID" />
+    </Key>
+    <Property Name="KatID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KatADI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="oda" Relationship="Self.FK_oda_kategori" FromRole="kategori" ToRole="oda" />
+  </EntityType>
+  <EntityType Name="kiralama">
+    <Key>
+      <PropertyRef Name="kiraID" />
+    </Key>
+    <Property Name="kiraID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="oda" Type="Int32" />
+    <Property Name="musteri" Type="Int32" />
+    <Property Name="girisTarih" Type="DateTime" Precision="0" />
+    <Property Name="cikisTarih" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="musteri1" Relationship="Self.FK_kiralama_musteri" FromRole="kiralama" ToRole="musteri" />
+    <NavigationProperty Name="oda1" Relationship="Self.FK_kiralama_oda" FromRole="kiralama" ToRole="oda" />
+  </EntityType>
+  <EntityType Name="musteri">
+    <Key>
+      <PropertyRef Name="musID" />
+    </Key>
+    <Property Name="musID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="muskimlikno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="musAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="musSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="odaNum" Type="Int32" />
+    <Property Name="durum" Type="Boolean" />
+    <Property Name="musCinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="musMedeni" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="musSayi" Type="Int32" />
+    <Property Name="musCocuk" Type="Int32" />
+    <Property Name="musAdres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="kiralama" Relationship="Self.FK_kiralama_musteri" FromRole="musteri" ToRole="kiralama" />
+  </EntityType>
+  <EntityType Name="oda">
+    <Key>
+      <PropertyRef Name="odaID" />
+    </Key>
+    <Property Name="odaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="odaKat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="odaKategori" Type="Int32" />
+    <Property Name="odaFiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="odaDurum" Type="Boolean" />
+    <NavigationProperty Name="kategori" Relationship="Self.FK_oda_kategori" FromRole="oda" ToRole="kategori" />
+    <NavigationProperty Name="kiralama" Relationship="Self.FK_kiralama_oda" FromRole="oda" ToRole="kiralama" />
+  </EntityType>
+  <EntityType Name="giris">
+    <Key>
+      <PropertyRef Name="kID" />
+    </Key>
+    <Property Name="kID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_oda_kategori">
+    <End Role="kategori" Type="Self.kategori" Multiplicity="0..1" />
+    <End Role="oda" Type="Self.oda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kategori">
+        <PropertyRef Name="KatID" />
+      </Principal>
+      <Dependent Role="oda">
+        <PropertyRef Name="odaKategori" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kiralama_musteri">
+    <End Role="musteri" Type="Self.musteri" Multiplicity="0..1" />
+    <End Role="kiralama" Type="Self.kiralama" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteri">
+        <PropertyRef Name="musID" />
+      </Principal>
+      <Dependent Role="kiralama">
+        <PropertyRef Name="musteri" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kiralama_oda">
+    <End Role="oda" Type="Self.oda" Multiplicity="0..1" />
+    <End Role="kiralama" Type="Self.kiralama" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="oda">
+        <PropertyRef Name="odaID" />
+      </Principal>
+      <Dependent Role="kiralama">
+        <PropertyRef Name="oda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="hotelEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kategori" EntityType="Self.kategori" />
+    <EntitySet Name="kiralama" EntityType="Self.kiralama" />
+    <EntitySet Name="musteri" EntityType="Self.musteri" />
+    <EntitySet Name="oda" EntityType="Self.oda" />
+    <EntitySet Name="giris" EntityType="Self.giris" />
+    <AssociationSet Name="FK_oda_kategori" Association="Self.FK_oda_kategori">
+      <End Role="kategori" EntitySet="kategori" />
+      <End Role="oda" EntitySet="oda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kiralama_musteri" Association="Self.FK_kiralama_musteri">
+      <End Role="musteri" EntitySet="musteri" />
+      <End Role="kiralama" EntitySet="kiralama" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kiralama_oda" Association="Self.FK_kiralama_oda">
+      <End Role="oda" EntitySet="oda" />
+      <End Role="kiralama" EntitySet="kiralama" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

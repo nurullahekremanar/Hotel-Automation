@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="hotelModelStoreContainer" CdmEntityContainer="hotelEntities">
+    <EntitySetMapping Name="kategori">
+      <EntityTypeMapping TypeName="hotelModel.kategori">
+        <MappingFragment StoreEntitySet="kategori">
+          <ScalarProperty Name="KatID" ColumnName="KatID" />
+          <ScalarProperty Name="KatADI" ColumnName="KatADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kiralama">
+      <EntityTypeMapping TypeName="hotelModel.kiralama">
+        <MappingFragment StoreEntitySet="kiralama">
+          <ScalarProperty Name="kiraID" ColumnName="kiraID" />
+          <ScalarProperty Name="oda" ColumnName="oda" />
+          <ScalarProperty Name="musteri" ColumnName="musteri" />
+          <ScalarProperty Name="girisTarih" ColumnName="girisTarih" />
+          <ScalarProperty Name="cikisTarih" ColumnName="cikisTarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="musteri">
+      <EntityTypeMapping TypeName="hotelModel.musteri">
+        <MappingFragment StoreEntitySet="musteri">
+          <ScalarProperty Name="musID" ColumnName="musID" />
+          <ScalarProperty Name="muskimlikno" ColumnName="muskimlikno" />
+          <ScalarProperty Name="musAD" ColumnName="musAD" />
+          <ScalarProperty Name="musSoyad" ColumnName="musSoyad" />
+          <ScalarProperty Name="odaNum" ColumnName="odaNum" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="musCinsiyet" ColumnName="musCinsiyet" />
+          <ScalarProperty Name="musMedeni" ColumnName="musMedeni" />
+          <ScalarProperty Name="musSayi" ColumnName="musSayi" />
+          <ScalarProperty Name="musCocuk" ColumnName="musCocuk" />
+          <ScalarProperty Name="musAdres" ColumnName="musAdres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="oda">
+      <EntityTypeMapping TypeName="hotelModel.oda">
+        <MappingFragment StoreEntitySet="oda">
+          <ScalarProperty Name="odaID" ColumnName="odaID" />
+          <ScalarProperty Name="odaKat" ColumnName="odaKat" />
+          <ScalarProperty Name="odaKategori" ColumnName="odaKategori" />
+          <ScalarProperty Name="odaFiyat" ColumnName="odaFiyat" />
+          <ScalarProperty Name="odaDurum" ColumnName="odaDurum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="giris">
+      <EntityTypeMapping TypeName="hotelModel.giris">
+        <MappingFragment StoreEntitySet="giris">
+          <ScalarProperty Name="kID" ColumnName="kID" />
+          <ScalarProperty Name="kAdi" ColumnName="kAdi" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

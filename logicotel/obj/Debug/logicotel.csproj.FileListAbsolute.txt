@@ -1,0 +1,28 @@
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\logicotel.dll
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\logicotel.pdb
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\dataAccessLayer.dll
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\EntityLayer.dll
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\EntityFramework.dll
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\dataAccessLayer.pdb
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\EntityLayer.pdb
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\EntityLayer.dll.config
+C:\Users\nurul\source\repos\otel\logicotel\bin\Debug\EntityFramework.xml
+C:\Users\nurul\source\repos\otel\logicotel\obj\Debug\logicotel.csproj.AssemblyReference.cache
+C:\Users\nurul\source\repos\otel\logicotel\obj\Debug\logicotel.csproj.CoreCompileInputs.cache
+C:\Users\nurul\source\repos\otel\logicotel\obj\Debug\logicotel.csproj.CopyComplete
+C:\Users\nurul\source\repos\otel\logicotel\obj\Debug\logicotel.dll
+C:\Users\nurul\source\repos\otel\logicotel\obj\Debug\logicotel.pdb
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\logicotel.dll
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\logicotel.pdb
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\dataAccessLayer.dll
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\EntityLayer.dll
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\EntityFramework.dll
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\dataAccessLayer.pdb
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\EntityLayer.pdb
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\EntityLayer.dll.config
+D:\Ders Notları\source\repos\otel\logicotel\bin\Debug\EntityFramework.xml
+D:\Ders Notları\source\repos\otel\logicotel\obj\Debug\logicotel.csproj.AssemblyReference.cache
+D:\Ders Notları\source\repos\otel\logicotel\obj\Debug\logicotel.csproj.CoreCompileInputs.cache
+D:\Ders Notları\source\repos\otel\logicotel\obj\Debug\logicotel.csproj.CopyComplete
+D:\Ders Notları\source\repos\otel\logicotel\obj\Debug\logicotel.dll
+D:\Ders Notları\source\repos\otel\logicotel\obj\Debug\logicotel.pdb

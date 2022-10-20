@@ -1,0 +1,60 @@
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\otel.exe.config
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\otel.exe
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\otel.pdb
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\dataAccessLayer.dll
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\EntityLayer.dll
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\logicotel.dll
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\EntityFramework.dll
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\dataAccessLayer.pdb
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\EntityLayer.pdb
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\EntityLayer.dll.config
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\logicotel.pdb
+C:\Users\nurul\source\repos\otel\otel\bin\Debug\EntityFramework.xml
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.csproj.AssemblyReference.cache
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.csproj.SuggestedBindingRedirects.cache
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.anaekran.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.Form1.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.musteri.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.Properties.Resources.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.csproj.GenerateResource.cache
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.csproj.CoreCompileInputs.cache
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.csproj.CopyComplete
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.exe
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.pdb
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.rezerve.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.kirala.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.resanasayfa.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.resepsiyonmusteri.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.resepsiyonoda.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.kategori.resources
+C:\Users\nurul\source\repos\otel\otel\obj\Debug\otel.resepsiyonkiralama.resources
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\otel.exe.config
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\otel.exe
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\otel.pdb
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\dataAccessLayer.dll
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\EntityLayer.dll
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\logicotel.dll
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\EntityFramework.dll
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\dataAccessLayer.pdb
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\EntityLayer.pdb
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\EntityLayer.dll.config
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\logicotel.pdb
+D:\Ders Notları\source\repos\otel\otel\bin\Debug\EntityFramework.xml
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.csproj.AssemblyReference.cache
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.csproj.SuggestedBindingRedirects.cache
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.anaekran.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.Form1.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.kategori.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.kirala.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.musteri.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.Properties.Resources.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.resanasayfa.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.resepsiyonkiralama.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.resepsiyonmusteri.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.resepsiyonoda.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.rezerve.resources
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.csproj.GenerateResource.cache
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.csproj.CoreCompileInputs.cache
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.csproj.CopyComplete
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.exe
+D:\Ders Notları\source\repos\otel\otel\obj\Debug\otel.pdb
